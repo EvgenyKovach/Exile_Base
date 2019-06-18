@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Play&display=swap");
+@import url("https://fonts.googleapis.com/css?family=El+Messiri&display=swap");
+.gradient-header {
+  background-color: #252c39;
+  /* IE9, iOS 3.2+ */
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBzdG9wLWNvbG9yPSIjNDg1NTZjIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiMxYjIxMmIiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjUiLz48c3RvcCBzdG9wLWNvbG9yPSIjMTQxOTIyIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMC45NzkwMDAwMDAwMDAwMDAxIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzM1M2I0NSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
+  /* Android 2.3 */
+  background-image: -webkit-repeating-linear-gradient(top, #48556c 0%, #1b212b 50%, #141922 97.9%, #353b45 100%);
+  /* IE10+ */
+  background-image: repeating-linear-gradient(to bottom, #48556c 0%, #1b212b 50%, #141922 97.9%, #353b45 100%);
+  background-image: -ms-repeating-linear-gradient(top, #48556c 0%, #1b212b 50%, #141922 97.9%, #353b45 100%);
+}
+
+.gradient-nav {
+  background-color: #283243;
+  /* IE9, iOS 3.2+ */
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBzdG9wLWNvbG9yPSIjNDg1NTZjIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiMzMjQ2NmEiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjA0NyIvPjxzdG9wIHN0b3AtY29sb3I9IiMxYjIxMmIiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjUiLz48c3RvcCBzdG9wLWNvbG9yPSIjMzUzYjQ1IiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMSIvPjwvbGluZWFyR3JhZGllbnQ+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCN2c2dnKSIgLz48L3N2Zz4=);
+  /* Android 2.3 */
+  background-image: -webkit-repeating-linear-gradient(top, #48556c 0%, #32466a 4.7%, #1b212b 50%, #353b45 100%);
+  /* IE10+ */
+  background-image: repeating-linear-gradient(to bottom, #48556c 0%, #32466a 4.7%, #1b212b 50%, #353b45 100%);
+  background-image: -ms-repeating-linear-gradient(top, #48556c 0%, #32466a 4.7%, #1b212b 50%, #353b45 100%);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.header {
+  margin: 0;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__title {
+  margin-left: 40px;
+  padding: 5px;
+  color: #fff;
+  font-size: 44px;
+  text-shadow: 0px 0 10px #FFAD00;
+}
+
+.header__search {
+  padding: 5px;
+}
+
+.header__search input {
+  width: 200px;
+  padding: 5px 10px;
+  margin-right: 40px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 10px 0 60px;
+  position: relative;
+}
+
+.nav li:hover {
+  -webkit-transition: .1s;
+  transition: .1s;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav li:hover > .sub-menu {
+  display: block;
+}
+
+.nav li a {
+  display: block;
+  padding: 10px 30px;
+  font-family: 'El Messiri', sans-serif;
+  position: relative;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav li a::after {
+  position: absolute;
+  content: "";
+  right: 0px;
+  top: 16px;
+  width: 1px;
+  height: 10px;
+  border-left: 1px solid #515151;
+}
+
+.sub-menu {
+  position: absolute;
+  display: none;
+  margin-left: 0px;
+}
+
+.sub-menu__item {
+  color: #fff;
+}
+
+.sub-menu__item a {
+  display: block;
+  padding: 5px 40px;
+  white-space: nowrap;
+}
+
+.sub-menu__item a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+/*# sourceMappingURL=style.css.map */
