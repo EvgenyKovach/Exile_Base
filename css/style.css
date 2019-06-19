@@ -15,6 +15,14 @@
   background-image: -ms-repeating-linear-gradient(top, #48556c 0%, #1b212b 50%, #141922 50.3%, #353b45 100%);
 }
 
+.gradient-item {
+  background-color: rgba(45, 59, 98, 0.99);
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBzdG9wLWNvbG9yPSIjNWM3MmRmIiBzdG9wLW9wYWNpdHk9IjAuOTYiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiMyMDI3MzMiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjQzOSIvPjxzdG9wIHN0b3AtY29sb3I9IiMxODFlMjkiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjUxOCIvPjxzdG9wIHN0b3AtY29sb3I9IiMyOTQwNjYiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIxIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==);
+  background-image: -webkit-repeating-linear-gradient(top, rgba(92, 114, 223, 0.96) 0%, #202733 43.9%, #181e29 51.8%, #294066 100%);
+  background-image: repeating-linear-gradient(to bottom, rgba(92, 114, 223, 0.96) 0%, #202733 43.9%, #181e29 51.8%, #294066 100%);
+  background-image: -ms-repeating-linear-gradient(top, rgba(92, 114, 223, 0.96) 0%, #202733 43.9%, #181e29 51.8%, #294066 100%);
+}
+
 body {
   margin: 0;
   font-size: 14px;
@@ -30,6 +38,56 @@ body {
 a {
   color: #fff;
   text-decoration: none;
+}
+
+.elder {
+  -webkit-box-shadow: inset 0 0 15px #00CC00;
+          box-shadow: inset 0 0 15px #00CC00;
+}
+
+.elder:hover {
+  -webkit-box-shadow: 0 0 5px #00CC00, inset 0 0 15px #00CC00;
+          box-shadow: 0 0 5px #00CC00, inset 0 0 15px #00CC00;
+}
+
+.exalted {
+  -webkit-box-shadow: inset 0 0 15px #FF0000;
+          box-shadow: inset 0 0 15px #FF0000;
+}
+
+.exalted:hover {
+  -webkit-box-shadow: 0 0 5px #FF0000, inset 0 0 15px #FF0000;
+          box-shadow: 0 0 5px #FF0000, inset 0 0 15px #FF0000;
+}
+
+.unic {
+  -webkit-box-shadow: inset 0 0 15px #FF3B11;
+          box-shadow: inset 0 0 15px #FF3B11;
+}
+
+.unic:hover {
+  -webkit-box-shadow: 0 0 5px #FF3B11, inset 0 0 15px #FF3B11;
+          box-shadow: 0 0 5px #FF3B11, inset 0 0 15px #FF3B11;
+}
+
+.rare {
+  -webkit-box-shadow: inset 0 0 15px #FFE400;
+          box-shadow: inset 0 0 15px #FFE400;
+}
+
+.rare:hover {
+  -webkit-box-shadow: 0 0 5px #FFE400, inset 0 0 15px #FFE400;
+          box-shadow: 0 0 5px #FFE400, inset 0 0 15px #FFE400;
+}
+
+.magic {
+  -webkit-box-shadow: inset 0 0 15px #0B5FA5;
+          box-shadow: inset 0 0 15px #0B5FA5;
+}
+
+.magic:hover {
+  -webkit-box-shadow: 0 0 5px #0B5FA5, inset 0 0 15px #0B5FA5;
+          box-shadow: 0 0 5px #0B5FA5, inset 0 0 15px #0B5FA5;
 }
 
 ul {
@@ -56,10 +114,11 @@ li {
 }
 
 .header__title {
+  font-family: "Kaushan Script";
   margin-left: 40px;
   padding: 5px;
   color: #fff;
-  font-size: 44px;
+  font-size: 46px;
   text-shadow: 0px 0 10px #FFAD00;
 }
 
@@ -134,7 +193,7 @@ li {
 
 .wrapper {
   width: 100%;
-  height: 700px;
+  min-height: 700px;
   color: #ddd;
 }
 
@@ -153,5 +212,56 @@ li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.wrapper .hello__fon {
+  margin: 0 auto;
+  max-width: 803px;
+}
+
+.wrapper .hello__fon img {
+  width: 100%;
+  height: auto;
+}
+
+.val-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+  padding-left: 55px;
+  -webkit-box-shadow: 0 0 10px #4E6BAE, inset	0 0 10px #4E6BAE;
+          box-shadow: 0 0 10px #4E6BAE, inset	0 0 10px #4E6BAE;
+}
+
+.val-list__item {
+  padding: 0 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 350px;
+  margin-top: 10px;
+  border-radius: 3px;
+  font-size: 17px;
+  padding: 3px;
+  color: #CECECE;
+}
+
+.val-list__item:hover {
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+.val-list__item img {
+  padding: 0 10px 0 20px;
 }
 /*# sourceMappingURL=style.css.map */
