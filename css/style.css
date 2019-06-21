@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Play&display=swap");
-@import url("https://fonts.googleapis.com/css?family=El+Messiri&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Alegreya+SC|El+Messiri|Playfair+Display+SC&display=swap");
 .gradient-header {
   background-image: url(data:image/svg+xmlbase64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBzdG9wLWNvbG9yPSIjMTcxYjIyIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiMxYjIxMmIiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjUiLz48c3RvcCBzdG9wLWNvbG9yPSIjMTQxOTIyIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMSIvPjxzdG9wIHN0b3AtY29sb3I9IiMzNTNiNDUiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIxIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==);
   background-image: -webkit-repeating-linear-gradient(top, #171b22 0%, #1b212b 50%, #141922 100%, #353b45 100%);
@@ -26,7 +25,7 @@
 body {
   margin: 0;
   font-size: 14px;
-  font-family: 'El Messiri', sans-serif;
+  font-family: 'Alegreya SC', serif;
 }
 
 .container {
@@ -40,54 +39,59 @@ a {
   text-decoration: none;
 }
 
+a:active {
+  -webkit-transform: scale(0.95) !important;
+          transform: scale(0.95) !important;
+}
+
 .elder {
-  -webkit-box-shadow: inset 0 0 15px #00CC00;
-          box-shadow: inset 0 0 15px #00CC00;
+  -webkit-box-shadow: inset 0 0 10px #00CC00;
+          box-shadow: inset 0 0 10px #00CC00;
 }
 
 .elder:hover {
-  -webkit-box-shadow: 0 0 5px #00CC00, inset 0 0 15px #00CC00;
-          box-shadow: 0 0 5px #00CC00, inset 0 0 15px #00CC00;
+  -webkit-box-shadow: 0 0 5px #00CC00, inset 0 0 10px #fff;
+          box-shadow: 0 0 5px #00CC00, inset 0 0 10px #fff;
 }
 
 .exalted {
-  -webkit-box-shadow: inset 0 0 15px #FF0000;
-          box-shadow: inset 0 0 15px #FF0000;
+  -webkit-box-shadow: inset 0 0 10px #FF0000;
+          box-shadow: inset 0 0 10px #FF0000;
 }
 
 .exalted:hover {
-  -webkit-box-shadow: 0 0 5px #FF0000, inset 0 0 15px #FF0000;
-          box-shadow: 0 0 5px #FF0000, inset 0 0 15px #FF0000;
+  -webkit-box-shadow: 0 0 5px #FF0000, inset 0 0 10px #fff;
+          box-shadow: 0 0 5px #FF0000, inset 0 0 10px #fff;
 }
 
 .unic {
-  -webkit-box-shadow: inset 0 0 15px #FF3B11;
-          box-shadow: inset 0 0 15px #FF3B11;
+  -webkit-box-shadow: inset 0 0 10px #FF3B11;
+          box-shadow: inset 0 0 10px #FF3B11;
 }
 
 .unic:hover {
-  -webkit-box-shadow: 0 0 5px #FF3B11, inset 0 0 15px #FF3B11;
-          box-shadow: 0 0 5px #FF3B11, inset 0 0 15px #FF3B11;
+  -webkit-box-shadow: 0 0 5px #FF3B11, inset 0 0 10px #fff;
+          box-shadow: 0 0 5px #FF3B11, inset 0 0 10px #fff;
 }
 
 .rare {
-  -webkit-box-shadow: inset 0 0 15px #FFE400;
-          box-shadow: inset 0 0 15px #FFE400;
+  -webkit-box-shadow: inset 0 0 10px #FFE400;
+          box-shadow: inset 0 0 10px #FFE400;
 }
 
 .rare:hover {
-  -webkit-box-shadow: 0 0 5px #FFE400, inset 0 0 15px #FFE400;
-          box-shadow: 0 0 5px #FFE400, inset 0 0 15px #FFE400;
+  -webkit-box-shadow: 0 0 5px #FFE400, inset 0 0 10px #fff;
+          box-shadow: 0 0 5px #FFE400, inset 0 0 10px #fff;
 }
 
 .magic {
-  -webkit-box-shadow: inset 0 0 15px #0B5FA5;
-          box-shadow: inset 0 0 15px #0B5FA5;
+  -webkit-box-shadow: inset 0 0 10px #0B5FA5;
+          box-shadow: inset 0 0 10px #0B5FA5;
 }
 
 .magic:hover {
-  -webkit-box-shadow: 0 0 5px #0B5FA5, inset 0 0 15px #0B5FA5;
-          box-shadow: 0 0 5px #0B5FA5, inset 0 0 15px #0B5FA5;
+  -webkit-box-shadow: 0 0 5px #0B5FA5, inset 0 0 10px #fff;
+          box-shadow: 0 0 5px #0B5FA5, inset 0 0 10px #fff;
 }
 
 ul {
@@ -145,6 +149,10 @@ li {
   position: relative;
 }
 
+.nav__item {
+  padding: 5px;
+}
+
 .nav__item:hover {
   -webkit-transition: .1s;
   transition: .1s;
@@ -161,16 +169,16 @@ li {
   display: block;
   padding: 5px 30px;
   position: relative;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .nav__item > a::after {
   position: absolute;
   content: "";
-  right: 0px;
-  top: 16px;
+  right: -5px;
+  top: 5px;
   width: 1px;
-  height: 10px;
+  height: 20px;
   border-left: 1px solid #515151;
 }
 
@@ -179,6 +187,7 @@ li {
   display: none;
   margin-left: 0px;
   border-radius: 2px;
+  padding: 0px 10px;
 }
 
 .sub-menu__item a {
@@ -208,10 +217,6 @@ li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 .wrapper .hello__fon {
@@ -228,30 +233,31 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 10px;
-  padding-left: 55px;
-  -webkit-box-shadow: 0 0 10px #4E6BAE, inset	0 0 10px #4E6BAE;
-          box-shadow: 0 0 10px #4E6BAE, inset	0 0 10px #4E6BAE;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 55px;
+  border-radius: 2px;
+  background-color: #2e343e;
 }
 
 .val-list__item {
-  padding: 0 5px;
+  font-family: 'Alegreya SC', serif;
+  padding: 3px 20px 3px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 350px;
-  margin-top: 10px;
+  margin: 10px 10px;
   border-radius: 3px;
-  font-size: 17px;
-  padding: 3px;
+  font-size: 14px;
+  text-transform: uppercase;
   color: #CECECE;
+  white-space: nowrap;
 }
 
 .val-list__item:hover {
@@ -262,6 +268,94 @@ li {
 }
 
 .val-list__item img {
-  padding: 0 10px 0 20px;
+  padding: 0 10px 0 0;
+}
+
+.curr-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 20px;
+  background-color: #2e343e;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.curr-info__item {
+  padding: 10px;
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+}
+
+.curr-info__item:not(:first-child) {
+  margin-left: 50px;
+}
+
+.curr-info .description__name {
+  color: #cab838;
+  font-size: 18px;
+}
+
+.curr-info .card {
+  -ms-flex-preferred-size: 350px;
+      flex-basis: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+  border: 1px solid #948747;
+  padding: 0 10px 10px 10px;
+  background-color: rgba(1, 1, 1, 0.4);
+}
+
+.curr-info .card__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.curr-info .card__stack::after, .curr-info .card__info::after {
+  position: absolute;
+  top: 25px;
+  margin: 0 auto;
+  content: "";
+  width: 60px;
+  height: 2px;
+  border-bottom: 1px solid #726C56;
+}
+
+.curr-info .card__name {
+  padding: 5px 0;
+  color: #cac1aa;
+  font-weight: bold;
+  background-color: #2A2818;
+  -webkit-box-shadow: 10px 0 0 #2A2818, -10px 0 0 #2A2818;
+          box-shadow: 10px 0 0 #2A2818, -10px 0 0 #2A2818;
+  border-bottom: 1px solid #6A5D43;
+}
+
+.curr-info .card__info {
+  color: #8183D2;
+  font-size: 14px;
+}
+
+.curr-info .card__move {
+  font-size: 12px;
+  color: #989898;
 }
 /*# sourceMappingURL=style.css.map */
