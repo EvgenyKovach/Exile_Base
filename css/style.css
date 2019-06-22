@@ -1,25 +1,15 @@
-@import url("https://fonts.googleapis.com/css?family=Alegreya+SC|El+Messiri|Playfair+Display+SC&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Alegreya+SC|Pangolin&display=swap");
 .gradient-header {
-  background-image: url(data:image/svg+xmlbase64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBzdG9wLWNvbG9yPSIjMTcxYjIyIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiMxYjIxMmIiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjUiLz48c3RvcCBzdG9wLWNvbG9yPSIjMTQxOTIyIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMSIvPjxzdG9wIHN0b3AtY29sb3I9IiMzNTNiNDUiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIxIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==);
-  background-image: -webkit-repeating-linear-gradient(top, #171b22 0%, #1b212b 50%, #141922 100%, #353b45 100%);
-  background-image: repeating-linear-gradient(to bottom, #171b22 0%, #1b212b 50%, #141922 100%, #353b45 100%);
-  background-image: -ms-repeating-linear-gradient(top, #171b22 0%, #1b212b 50%, #141922 100%, #353b45 100%);
+  background-color: #0E1621;
 }
 
 .gradient-nav {
-  background-color: #2b323f;
-  background-image: url(data:image/svg+xml.base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBzdG9wLWNvbG9yPSIjNDg1NTZjIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiMxYjIxMmIiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjUiLz48c3RvcCBzdG9wLWNvbG9yPSIjMTQxOTIyIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMC41MDMiLz48c3RvcCBzdG9wLWNvbG9yPSIjMzUzYjQ1IiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMSIvPjwvbGluZWFyR3JhZGllbnQ+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCN2c2dnKSIgLz48L3N2Zz4=);
-  background-image: -webkit-repeating-linear-gradient(top, #48556c 0%, #1b212b 50%, #141922 50.3%, #353b45 100%);
-  background-image: repeating-linear-gradient(to bottom, #48556c 0%, #1b212b 50%, #141922 50.3%, #353b45 100%);
-  background-image: -ms-repeating-linear-gradient(top, #48556c 0%, #1b212b 50%, #141922 50.3%, #353b45 100%);
+  background-color: #17212B;
+  border: 1px solid #272822;
 }
 
 .gradient-item {
   background-color: rgba(45, 59, 98, 0.99);
-  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBzdG9wLWNvbG9yPSIjNWM3MmRmIiBzdG9wLW9wYWNpdHk9IjAuOTYiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiMyMDI3MzMiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjQzOSIvPjxzdG9wIHN0b3AtY29sb3I9IiMxODFlMjkiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjUxOCIvPjxzdG9wIHN0b3AtY29sb3I9IiMyOTQwNjYiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIxIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==);
-  background-image: -webkit-repeating-linear-gradient(top, rgba(92, 114, 223, 0.96) 0%, #202733 43.9%, #181e29 51.8%, #294066 100%);
-  background-image: repeating-linear-gradient(to bottom, rgba(92, 114, 223, 0.96) 0%, #202733 43.9%, #181e29 51.8%, #294066 100%);
-  background-image: -ms-repeating-linear-gradient(top, rgba(92, 114, 223, 0.96) 0%, #202733 43.9%, #181e29 51.8%, #294066 100%);
 }
 
 body {
@@ -40,8 +30,8 @@ a {
 }
 
 a:active {
-  -webkit-transform: scale(0.95) !important;
-          transform: scale(0.95) !important;
+  -webkit-transform: scale(0.99) !important;
+          transform: scale(0.99) !important;
 }
 
 .elder {
@@ -118,7 +108,7 @@ li {
 }
 
 .header__title {
-  font-family: "Kaushan Script";
+  font-family: 'Pangolin', cursive;
   margin-left: 40px;
   padding: 5px;
   color: #fff;
@@ -158,7 +148,7 @@ li {
   transition: .1s;
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
-  background-color: rgba(1, 1, 1, 0.1);
+  background-color: #2B5278;
 }
 
 .nav__item:hover > .sub-menu {
@@ -185,19 +175,19 @@ li {
 .sub-menu {
   position: absolute;
   display: none;
-  margin-left: 0px;
+  margin-left: -5px;
+  margin-top: 5px;
   border-radius: 2px;
-  padding: 0px 10px;
 }
 
 .sub-menu__item a {
   display: block;
-  padding: 5px 50px 5px 10px;
+  padding: 5px 70px 5px 20px;
   white-space: nowrap;
 }
 
 .sub-menu__item a:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #2B5278;
 }
 
 .wrapper {
@@ -278,7 +268,7 @@ li {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding: 20px;
-  background-color: #2e343e;
+  background-color: #182533;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
@@ -357,5 +347,9 @@ li {
 .curr-info .card__move {
   font-size: 12px;
   color: #989898;
+}
+
+.descr__get-title {
+  font-size: 18px;
 }
 /*# sourceMappingURL=style.css.map */
