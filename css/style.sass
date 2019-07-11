@@ -1,63 +1,38 @@
+@import 'global-img', "mixins"
 @import url('https://fonts.googleapis.com/css?family=Alegreya+SC|Pangolin&display=swap')
 
-.gradient-header
-	background-color: #0E1621
-	
-.gradient-nav 
-	background-color: #17212B
-	border: 1px solid #272822
-
-.gradient-item
-	background-color: rgba(45, 59, 98, 0.99)
+//-----------------Global
 
 $static-border: 0 0 1px #464646
 $def-back: #182533
+$easy-border: 1px solid #414339
+$easy-color: #E9E8E8
+$name-color: #47A4FA
 
 body
 	margin: 0
 	font-size: 14px
 	font-family: 'Alegreya SC', serif
+	color: $easy-color
 
 .container
   padding: 20px 30px
   margin: 0 auto
   max-width: 100%
 
+.tmp-link
+	color: $name-color
+
+.item-sum
+	color: #DAA52F
+	font-size: 16px
+
 a
-	color: #fff
+	color: $easy-color
 	text-decoration: none
 
 	&:active
 		transform: scale(0.99) !important
-
-.elder
-	box-shadow: inset 0 0 10px #00CC00
-	&:hover
-		box-shadow: 0 0 5px #00CC00, inset 0 0 10px #fff
-
-
-.exalted
-	box-shadow: inset 0 0 10px #FF0000
-	&:hover
-		box-shadow: 0 0 5px #FF0000, inset 0 0 10px #fff
-
-.unic
-	box-shadow: inset 0 0 10px #FF3B11
-	&:hover
-		box-shadow: 0 0 5px #FF3B11, inset 0 0 10px #fff
-
-.rare
-	box-shadow: inset 0 0 10px #FFE400
-	&:hover
-		box-shadow: 0 0 5px #FFE400, inset 0 0 10px #fff
-
-.magic
-	box-shadow: inset 0 0 10px #0B5FA5
-	&:hover
-		box-shadow: 0 0 5px #0B5FA5, inset 0 0 10px #fff
-
-
-//-----------------Global
 
 ul
 	margin: 0
@@ -78,7 +53,7 @@ li
 		font-family: 'Pangolin', cursive
 		margin-left: 40px
 		padding: 5px
-		color: #fff
+		color: $easy-color
 		font-size: 46px
 		text-shadow: 0px 0 10px #FFAD00
 
@@ -90,9 +65,15 @@ li
 			padding: 10px 10px
 			margin-right: 40px
 			background-color: rgba(1,1,1,0.4)
-			color: white
+			color: $easy-color
 			border: none 
 			box-shadow: $static-border
+			+bp(700px)
+				margin: 0
+				width: 200px
+			+bp(575px)
+				padding: 5px
+				width: 150px
 
 
 //---------------- Navigation
@@ -101,6 +82,10 @@ li
 	display: flex
 	padding: 0px 10px 0 60px
 	position: relative
+	+bp(960px)
+		padding-left: 0px
+		justify-content: center
+	
 
 	&__item
 		padding: 5px
@@ -116,7 +101,12 @@ li
 			display: block
 			padding: 5px 30px
 			position: relative
-			font-size: 16px
+			font-size: 14px
+			+bp(850px)
+				padding: 5px 15px
+			+bp(650px)
+				padding: 5px 10px
+				font-size: 11px
 			
 			&::after
 				position: absolute
@@ -147,10 +137,10 @@ li
 .wrapper
 	width: 100%
 	min-height: 700px
-	color: #ddd
 
 	.hello
-		background-color: #181e2f	
+		background-color: $def-back
+		padding: 20px
 		display: flex
 		align-items: center
 		justify-content: center
@@ -171,7 +161,7 @@ li
 	justify-content: center
 	padding: 10px 55px
 	border-radius: 2px
-	background-color: #2e343e
+	background-color: $def-back
 
 	&__item
 		font-family: 'Alegreya SC', serif
@@ -182,8 +172,8 @@ li
 		border-radius: 3px
 		font-size: 14px
 		text-transform: uppercase
-		color: #CECECE
 		white-space: nowrap
+		border: $easy-border
 
 		&:hover
 			transition: 0.1s
@@ -198,9 +188,9 @@ li
 .curr-info
 	display: flex
 	flex-wrap: wrap
+	justify-content: center
 	padding: 20px
 	background-color: $def-back
-	justify-content: space-around
 
 	&__item
 		padding: 10px
@@ -211,11 +201,14 @@ li
 
 	.description
 		&__name
-			color: #cab838
 			font-size: 18px
+			color: $name-color
+
+	.container-card
+		margin-left: 40px
 
 	.card
-		flex-basis: 350px
+		max-width: 350px
 		display: flex
 		flex-direction: column
 		justify-content: space-between
@@ -246,6 +239,7 @@ li
 			padding: 5px 0
 			color: #cac1aa
 			font-weight: bold
+			font-size: 16px
 			background-color: #2A2818
 			box-shadow: 10px 0 0 #2A2818, -10px 0 0 #2A2818
 			border-bottom: 1px solid #6A5D43
@@ -259,5 +253,29 @@ li
 			color: #989898
 	
 .descr
+	&__get
+		margin-top: 40px
 	&__get-title 
 		font-size: 18px
+
+	&__gets-values
+		border-collapse: collapse
+		td
+			padding: 5px 20px
+			border: $easy-border
+			text-align: center
+
+.table-title
+	td
+		font-weight: bold
+
+// unic-items
+
+.unic-list
+	&__item
+		border: 1px solid #e43f00
+		border-bottom: 5px solid #e43f00
+		padding: 13px 15px 13px 15px
+
+		img
+			padding: 0 0 0 5px
