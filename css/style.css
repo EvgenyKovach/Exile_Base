@@ -437,9 +437,104 @@ li {
   border: 1px solid #e43f00;
   border-bottom: 5px solid #e43f00;
   padding: 13px 15px 13px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.unic-list__item h1 {
+  margin: 5px;
+  border-bottom: 3px solid #d44400;
+}
+
+.unic-list__item li {
+  padding-top: 15px;
+}
+
+.unic-list__item li:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .unic-list__item img {
   padding: 0 0 0 5px;
+}
+
+.item-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 10%;
+  margin-top: 30px;
+}
+
+.item-card__img {
+  width: 47px;
+  height: 47px;
+  background: url(../img/unic-items/rings/ThePariah.png) 100% 100% no-repeat;
+}
+
+.item-card .card-inf {
+  width: 400px;
+  margin-left: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #6A5D43;
+  border: 1px solid #6A5D43;
+}
+
+.item-card .card-inf__name-block, .item-card .card-inf__iLvl, .item-card .card-inf__rLvl, .item-card .card-inf__implicit, .item-card .card-inf__properties, .item-card .card-inf__story {
+  width: 100%;
+  text-align: center;
+}
+
+.item-card .card-inf__name-block {
+  border: 1px solid #6C3A1D;
+  background-color: #321505;
+  color: #AF6025;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.item-card .card-inf__iLvl, .item-card .card-inf__rLvl {
+  color: #7F7F6B;
+}
+
+.item-card .card-inf__implicit, .item-card .card-inf__propertie {
+  color: #8888FF;
+}
+
+.item-card .card-inf__propertie:last-child {
+  padding: 15px;
+}
+
+.item-card .card-inf__story {
+  -webkit-box-shadow: 1px -1px 1px #6A5D43;
+          box-shadow: 1px -1px 1px #6A5D43;
+  padding-top: 5px;
+  color: #AF6025;
+}
+
+.s-line {
+  border-bottom: 1px solid #6A5D43;
+}
+
+.lv-color {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

@@ -276,6 +276,78 @@ li
 		border: 1px solid #e43f00
 		border-bottom: 5px solid #e43f00
 		padding: 13px 15px 13px 15px
+		display: flex
+		flex-direction: column
+
+		h1
+			margin: 5px
+			border-bottom: 3px solid #d44400
+
+		li
+			padding-top: 15px
+		
+		li:hover
+			transform: scale(1.1)
 
 		img
 			padding: 0 0 0 5px
+
+// unic-items-category
+
+
+.item-card
+	display: flex
+	align-items: center
+	margin-left: 10%
+	margin-top: 30px
+
+	&__img
+		width: 47px
+		height: 47px
+		background: url(../img/unic-items/rings/ThePariah.png) 100% 100% no-repeat
+
+	.card-inf
+		width: 400px
+		margin-left: 40px
+		display: flex
+		flex-direction: column
+		align-items: center
+		border: 1px solid #6A5D43	
+
+		&__name-block,
+		&__iLvl,
+		&__rLvl,
+		&__implicit,
+		&__properties,
+		&__story
+			width: 100%
+			text-align: center
+
+		&__name-block
+			border: 1px solid #6C3A1D
+			background-color: #321505
+			color: #AF6025
+			font-size: 16px
+			font-weight: bold
+
+		&__iLvl,
+		&__rLvl
+			color: #7F7F6B
+
+		&__implicit,
+		&__propertie
+			color: #8888FF
+
+		&__propertie:last-child
+			padding: 15px
+
+		&__story
+			box-shadow: 1px -1px 1px #6A5D43
+			padding-top: 5px
+			color: #AF6025
+
+.s-line
+	border-bottom: 1px solid #6A5D43
+
+.lv-color
+	color: white
